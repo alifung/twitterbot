@@ -66,7 +66,7 @@ var msg = getRandom(names) + ' is in cahoots with ' + getRandom(agencies);
 // makes it stop setTimeout()
 //makes it do it every once in a while 
 
-//setInterval(tweet, 1000 * 60 * 5); //tweet every 4 minutes
+setInterval(tweet, 1000 * 60 * 60 * 1); //tweet every 
 tweet();
 
 };
