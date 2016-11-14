@@ -33,7 +33,7 @@ function tweet(){
 
 // var msg = 'This is NOT a random number: ' + Math.random() * 1000;
 //this connects the getRandom function to what i'm getting from (frats list) and the other one!
-var msg = getRandom(frats) + 'is in cahoots with' getRandom(agencies);
+var msg = getRandom(frats) + 'is in cahoots with' + getRandom(agencies);
 
 	T.post('statuses/update', {status: msg}, function(err, data, res) {
 		console.log(data)
