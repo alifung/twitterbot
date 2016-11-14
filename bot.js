@@ -5,7 +5,7 @@ var fs = require('fs');
 var frats = fs.readFileSync('./corpora/fraternities.json');
 frats = JSON.parse(frats);
 //console.log(Object.key(frats).pop());
-console.log(frats);
+console.log(frats.name);
 
 var agencies = fs.readFileSync('./corpora/us_federal_agencies.json');
 agencies = JSON.parse(agencies);
