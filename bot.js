@@ -36,9 +36,11 @@ function tweet(){
 var msg = getRandom(frats) + 'is in cahoots with' + getRandom(agencies);
 
 	T.post('statuses/update', {status: msg}, function(err, data, res) {
-		console.log(data)
+		//console.log(data)
 	});
 }
+
+
 // makes it stop setTimeout()
 //makes it do it every once in a while 
 
