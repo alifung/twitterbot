@@ -8,7 +8,7 @@ frats = JSON.parse(frats);
 console.log(frats);
 
 var agencies = fs.readFileSync('./corpora/us_federal_agencies.json');
-frats = JSON.parse(agencies);
+agencies = JSON.parse(agencies);
 
 
 function getRandom(arr) {
